@@ -16,8 +16,10 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=IBM+Plex+Sans:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=IBM+Plex+Sans:wght@300&family=PT+Sans+Caption&display=swap"
       rel="stylesheet"
     />
     <script
@@ -29,11 +31,67 @@
     <title>Nicole Stewart: Home</title>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar navbar-light"
+      style="background-color: navbar navbar-light"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Nicole Stewart</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About me</a>
+            <a class="nav-link" href="/work.html">My Work</a>
+            <a class="nav-link" href="/about.html#contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
-      <h1>Welcome!</h1>
-      <h2>My name is Nicole Stewart and I am a front-end developer.</h2>
-      <p>Based in Santa Fe, NM</p>
+      <h1>Hello there!</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="/images/me.jpg"
+            width="400px"
+            class="img-fluid rounded"
+            alt="Photo of Nicole Stewart"
+          />
+        </div>
+        <div class="col-6">
+          <h2>I am Nicole Stewart</h2>
+          <p>
+            I'm a front-end developer that has a passion for thoughtful UI & UX,
+            clean designs, and thorough planning.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="home-contact-button">
       <a href="#" class="btn">Contact Me!</a>
+    </div>
+    <div class="container">
+      <div class="row"></div>
+    </div>
+
+    <div class="links fixed-bottom">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About me</a>
+      <a href="/work.html">My work</a>
     </div>
   </body>
 </html>
