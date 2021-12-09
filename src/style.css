@@ -1,7 +1,27 @@
 /* font-family: 'Carrois Gothic', sans-serif;
 font-family: 'IBM Plex Sans', sans-serif;
 */
+body {
+  text-align: center;
+}
 h1 {
   font-family: "Carrois Gothic", sans-serif;
-  font-size: 100px;
+  font-size: 50px;
+}
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 25px;
+}
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+}
+.hero {
+  background-color: #303841;
+  color: #eeeeee;
+  padding: 20px;
+}
+.btn {
+  font-family: "Carrois Gothic", sans-serif;
+  background-color: #00adb5;
 }
