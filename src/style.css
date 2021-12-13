@@ -8,7 +8,7 @@ body {
   margin-bottom: 20px;
 }
 footer {
-  background-color: #00adb5;
+  background-color: #303841;
 }
 h1 {
   font-family: "Carrois Gothic", sans-serif;
@@ -29,6 +29,12 @@ a {
 }
 a:hover {
   color: #00adb5;
+}
+.footer-icons {
+  color: #00adb5;
+}
+.footer-icons:hover {
+  color: #eeeeee;
 }
 .hero {
   background-color: #303841;
