@@ -5,6 +5,10 @@ font-family: 'PT Sans Caption', sans-serif;
 body {
   text-align: center;
   background-color: #eeeeee;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #00adb5;
 }
 h1 {
   font-family: "Carrois Gothic", sans-serif;
